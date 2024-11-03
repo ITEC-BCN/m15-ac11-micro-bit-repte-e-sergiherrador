@@ -5,7 +5,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "microbit-template-repo-python": "github:raimonizard/microbit-template-repo-python#f43facc178b1007f372ccc3660a01e0cf10db899"
     },
     "files": [
         "main.ts",
