@@ -1,28 +1,3 @@
-
-> Obre aquesta pàgina a [https://raimonizard.github.io/microbit-template-repo-python/](https://raimonizard.github.io/microbit-template-repo-python/)
-
-## Utilitza-ho com a extensió
-
-Aquest dipòsit es pot afegir com una **extensió** a MakeCode.
-
-* obre [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* fes clic a **Projecte nou**
-* fes clic a **Extensions** sota el menú de la roda dentada
-* cercar **https://github.com/raimonizard/microbit-template-repo-python** i importar
-
-## Edita aquest projecte
-
-Per editar aquest repositori a MakeCode.
-
-* obre [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* fes clic a ** Importa** i després a ** Importa URL**
-* enganxa **https://github.com/raimonizard/microbit-template-repo-python** i clica importar
-
-#### Metadades (utilitzades per a la cerca, renderització)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
-
 # 🌡️ Estación Meteorológica en Micro:bit 🌧️
 
 Este proyecto convierte tu micro:bit en una pequeña estación meteorológica que puede mostrar la temperatura o simular el movimiento de una gota de agua en la pantalla de LEDs. ¡Prueba los dos modos!
@@ -32,12 +7,15 @@ Este proyecto convierte tu micro:bit en una pequeña estación meteorológica qu
 ### Botón A: Gráfico de Temperatura 🌡️
 - Al presionar **A**, el micro:bit muestra un gráfico de barras que indica la **temperatura actual** (en grados Celsius) en la pantalla LED.
 - La escala del gráfico llega hasta un máximo de **50°C** para representar temperaturas altas.
+    ![image](https://github.com/user-attachments/assets/6e423629-31b6-4a10-88c3-85cbab8d9386)
   
 ### Botón B: Movimiento de la Gota 💧
 - Al presionar **B**, el micro:bit activa el modo de **simulación de la gota**.
 - En este modo, un solo LED representa una gota que se mueve en la pantalla:
   - La gota responde a la **inclinación** del micro:bit: inclina la tarjeta en diferentes direcciones y observa cómo la gota se desplaza en esa dirección.
-  
+  - ![image](https://github.com/user-attachments/assets/3378fb16-fd13-4c39-add9-53c748704131)
+
+
 ## 🔄 Alterna entre modos
 - **Botón A**: Muestra el gráfico de temperatura y pausa el movimiento de la gota.
 - **Botón B**: Activa el movimiento de la gota. 
