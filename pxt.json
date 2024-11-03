@@ -1,5 +1,6 @@
 {
     "name": "RepteE_SergiHerrador",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
